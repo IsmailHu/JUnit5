@@ -20,7 +20,7 @@ public class Triangle {
     //Method checks if given sides form a triangle
     private boolean checkTriangle(int sideA, int sideB, int sideC){
         //check if given sides obey inequality rule
-        return (sideA + sideB > sideC && sideA + sideC > sideB && sideC + sideB >= sideB);
+        return (sideA + sideB > sideC && sideA + sideC > sideB && sideC + sideB > sideB);
     }
     //Method returns the type of triangle as String
     public String getType() {
